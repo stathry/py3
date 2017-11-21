@@ -12,8 +12,8 @@ Created on 2017年11月20日
 #         break
 
 list1 = [666, 888, 863]
-for n1 in list1:
+for i,n1 in enumerate(list1):
+    print(i)
     if(n1 == 888):
-        pass
-        print('this is pass')
+        continue
     print(n1)
