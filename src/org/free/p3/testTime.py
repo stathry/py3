@@ -10,8 +10,8 @@ import calendar
 
 d = time.localtime()
 d2 = datetime.datetime.now()
-print(calendar.calendar.format('%Y-%m-%d %H:%M:%S', d))
-# print(time.strftime('%Y-%m-%d %H:%M:%S', d))
+# print(calendar.calendar.format('%Y-%m-%d %H:%M:%S', d2))
+print(time.strftime('%Y-%m-%d %H:%M:%S', d))
 # print(d2.year)
 # print(d2)
 # print(datetime.datetime.isoformat(d2))
